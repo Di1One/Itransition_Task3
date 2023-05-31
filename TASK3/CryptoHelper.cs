@@ -14,7 +14,7 @@ namespace TASK3
 
         public byte[] GenerateKey()
         {
-            byte[] key = new byte[64];
+            byte[] key = new byte[256];
             rng.GetBytes(key);
             return key;
         }
